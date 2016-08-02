@@ -1,0 +1,73 @@
+{
+	"quiz": {
+		"name": "Jquery quiz",
+		"title": "Jquery Quiz",
+		"description": "An interactive quiz to know more about Jquery",
+		"question": [{
+			"id": "q1",
+			"text": "What is the XML called?",
+			"choices": {
+				"choice": [{
+						"correct": "true",
+						"text": "Extensible Markup Language"
+					},
+					"Excellent Management Language",
+					"Esoteric Markup Language",
+					"Easy Markup Language"
+				]
+			}
+		}, {
+			"id": "q2",
+			"text": "What are the three relationships possible in the jquery XML file?",
+			"choices": {
+				"choice": [
+					"Children, Parent, Cousin",
+					"Parent, Grandma, Child",
+					"Parent, Grandpa, Child", {
+						"correct": "true",
+						"text": "Parent, Sibling, Child"
+					}
+				]
+			}
+		}, {
+			"id": "q3",
+			"text": "What is the right selector?",
+			"choices": {
+				"choice": [{
+						"correct": "true",
+						"text": "$('[href=#]')"
+					},
+					"$('{href=#}')",
+					"$('href=#')",
+					"$(href=#)"
+				]
+			}
+		}, {
+			"id": "q4",
+			"text": "Identify a relationship selector",
+			"choices": {
+				"choice": [
+					"$('#temp').grandpa()",
+					"$('#temp').cousin()", {
+						"correct": "true",
+						"text": "$('#temp').children()"
+					},
+					"$('#temp').childrens()"
+				]
+			}
+		}, {
+			"id": "q5",
+			"text": "Which is a Jquery Effect Methods",
+			"choices": {
+				"choice": [{
+						"correct": "true",
+						"text": "show()"
+					},
+					"beam()",
+					"slide()",
+					"down()"
+				]
+			}
+		}]
+	}
+}

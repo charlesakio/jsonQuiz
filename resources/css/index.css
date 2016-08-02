@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  height: 14rem;
+}
+
+.jumbotron {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+li:hover {
+  background-color: gray;
+}
+
+.custom-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+        width: 100px;
+	height: 100px;
+        -webkit-transform: translate(-50%, -50%);  
+	transform: translate(-50%, -50%);   
+}

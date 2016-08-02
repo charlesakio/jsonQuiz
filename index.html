@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="resources/css/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="resources/js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="jumbotron" data-role="page">
+	  <h1 class="text-center" id="title"></h1>
+	  <p class="lead text-center" id="description"></p>
+	  <div class="row ui-content" data-role="main">
+		<div class="col-md-6">
+	  		<a class="ui-btn" id="start" href="#q0" role="button" data-transition="fade">
+				Start 
+			</a>
+		</div>
+		<div data-role="collapsible" >
+			<h1 style="text-align-last: center;">Options</h1>
+				How many questions do you want?
+				<select id="questions">
+					<option value="5">5</option>
+					<option value="4">4</option>
+					<option value="3">3</option>
+					<option value="2">2</option>
+					<option value="1">1</option>
+				</select>
+				Randomize the questions?
+				<select id="randomize">
+					<option value="0">YES</option>
+					<option value="1">NO</option>
+				</select>
+		 </div>
+	  </div><!--row-->
+  </div><!--jumbotron-->
+
+</body>
+</html>
